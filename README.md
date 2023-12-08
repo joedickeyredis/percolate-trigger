@@ -1,4 +1,4 @@
-# Geographic Search Demo with Redis
+# Geographic Percolate Query with Redis Enterprise
 
 ## Overview
 
