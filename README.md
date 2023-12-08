@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a demonstration showcasing the implementation of GEO polygon search, Redis Streams, and Triggers & Functions (T&F). The specific use case involves adding image metadata, including image coordinates, as a hash to Redis. Subsequently, a search query is triggered against predefined "policies" (hashes) that correspond to specific geographic regions. If an image hash is added to the database and falls within the bounds of a geographic policy, the image data is appended to the corresponding Redis Stream.
+This repository contains a demonstration showcasing an implementation of GEO polygon search, Redis Streams, and Triggers & Functions (T&F). The specific use case involves adding image metadata, including image coordinates, as a hash to Redis. Subsequently, a search query is triggered against indexed "policies" (hashes) that correspond to specific geographic regions. If an image hash is added to the database and falls within the bounds of a geographic policy, the image data is appended to the corresponding Redis Stream.
 
 ## Components
 
